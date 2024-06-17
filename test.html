@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>กรอกข้อมูลผู้สมัครเรียน</title>
+    </head>
+    <body>
+        <p><b>ข้อมูลผู้สมัคร</b><p style="color:red;">(**รหัสประจำตัวประชาชน วัน/เดือน/ปี เกิด เพื่อตรวจสอบข้อมูล)</p>
+        <p><h5>*รหัสประจำตัวประชาชน :<input id="Name" type="text" maxlength="20"/><br />
+            <h5>*วัน/เดือน/ปี เกิด : <select id="date" name="date">
+                <option value="วัน">วัน</option>
+                <option value="วัน">1</option>
+                <option value="วัน">2</option>
+                <option value="วัน">3</option>
+                <option value="วัน">4</option>
+                <option value="วัน">5</option>
+                <option value="วัน">6</option>
+                <option value="วัน">7</option>
+                <option value="วัน">8</option>
+                <option value="วัน">9</option>
+                <option value="วัน">10</option>
+                <option value="วัน">11</option>
+                <option value="วัน">12</option>
+                <option value="วัน">13</option>
+                <option value="วัน">14</option>
+                <option value="วัน">15</option>
+                <option value="วัน">16</option>
+                <option value="วัน">17</option>
+                <option value="วัน">18</option>
+                <option value="วัน">19</option>
+                <option value="วัน">20</option>
+                <option value="วัน">21</option>
+                <option value="วัน">22</option>
+                <option value="วัน">23</option>
+                <option value="วัน">24</option>
+                <option value="วัน">25</option>
+                <option value="วัน">26</option>
+                <option value="วัน">27</option>
+                <option value="วัน">28</option>
+                <option value="วัน">29</option>
+                <option value="วัน">30</option>
+                <option value="วัน">31</option>
+            </select>
+            <select id="month" name="month">
+                <option value="เดือน">เดือน</option>
+                <option value="เดือน">1</option>
+                <option value="เดือน">2</option>
+                <option value="เดือน">3</option>
+                <option value="เดือน">4</option>
+                <option value="เดือน">5</option>
+                <option value="เดือน">6</option>
+                <option value="เดือน">7</option>
+                <option value="เดือน">8</option>
+                <option value="เดือน">9</option>
+                <option value="เดือน">10</option></select>
+                <select id="year" name="year">
+                <option value="ปี">ปี</option>
+                <option value="เดือน">2567</option>
+                <option value="เดือน">2566</option>
+                <option value="เดือน">2565</option>
+                <option value="เดือน">2564</option>
+                <option value="เดือน">2563</option>
+                <option value="เดือน">2562</option>
+                <option value="เดือน">2561</option>
+                <option value="เดือน">2560</option>
+                <option value="เดือน">2559</option>
+                <option value="เดือน">2558</option></select><br />
+            <button type="submit">ตรวจสอบ</button>
+            <button type="button">เริ่มใหม่</button>
+            <h5>สมัครโดยใช้คุณวุฒิ:
+                <input type="radio" name="ปวส." value="like">ปวส.</br>
+                <h4 style="color:green;">ข้อมูลส่วนตัวผู้สมัคร</h4>
+                <h5>*ชื่อ-นามสกุล ผู้สมัคร : <select id="date" name="date">
+                    <option value="ชื่อนามสกุล">นาย</option><input id="Name" type="text" size="16"/> . <input id="Name" type="text" size="16"/>
+                    <h5>*เพศ : <select id="date" name="date">
+                        <option value="เพศ">ชาย</option>
+                        <option value="เพศ">หญิง</option>
+                        <option value="เพศ">เพศทางเลือก</option></select>
+                    <h5>*สัญชาติ : <select id="thai" name="thai">
+                        <option value="สัญชาติ">ไทย</option></select>
+                    *ศาสนา : <select id="date" name="date">
+                        <option value="ศาสนา">พุทธ</option>
+                        <option value="ศาสนา">คริสต์</option>
+                        <option value="ศาสนา">อิสลาม</option></select>
+                        <h5>*ความสามารถพิเศษ : <select id="thai" name="thai">
+                            <option value="สัญชาติ">ไม่ระบุ</option></select>
+                        *ความพิการ : <select id="date" name="date">
+                            <option value="ความพิการ">ไม่ระบุ</option>
+                            <option value="ความพิการ">พิการสายตา</option></select>
+                <h4 style="color:green;">ข้อมูลที่อยู่ตามทะเบียน</h4>
+                    <h5>*บ้านเลขที่ : <input id="Name" type="text" size="3"/>
+                        *หมู่ : <input id="Name" type="text" size="5"/>
+                        *ถนน : <input id="Name" type="text" size="15"/>
+                    <h5>*จังหวัด : <select id="thai" name="thai">
+                            <option value="จังหวัด">กรุงเทพมหานคร</option>
+                            <option value="จังหวัด">ปราจีนบุรี</option>
+                            <option value="จังหวัด">ชลบุรี</option>
+                            <option value="จังหวัด">ระยอง</option>
+                            <option value="จังหวัด">ตราด</option></select>
+                        *โทรศัพท์บ้าน : <input id="Name" type="text" size="15"/>
+                <h5>*อำเภอ : <select id="thai" name="thai">
+                    <option value="จังหวัด">- เลือก -</option>
+                    <option value="จังหวัด">แขวงดุสิต</option>
+                    <option value="จังหวัด">แขวงดินแดง</option>
+                    <option value="จังหวัด">แขวงบางแค</option>
+                    <option value="จังหวัด">แขวงคลองจั่น</option>
+                    <option value="จังหวัด">แขวงบางซื่อ</option></select>
+                        *โทรศัพท์มือถือ : <input id="Name" type="text" size="15"/>
+                <h5>*ตำบล : <select id="thai" name="thai">
+                        <option value="จังหวัด">- เลือก -</option>
+                        <option value="จังหวัด">แขวงดุสิต</option>
+                        <option value="จังหวัด">แขวงดินแดง</option>
+                        <option value="จังหวัด">แขวงบางแค</option>
+                        <option value="จังหวัด">แขวงคลองจั่น</option>
+                        <option value="จังหวัด">แขวงบางซื่อ</option></select>
+                        *E-mail : <input id="Name" type="text" size="15"/>
+                <h5>*รหัสไปรษณีย์ : <input id="Name" type="text" size="8"/></h5>
+                <h4 style="color:green;">ข้อมูลที่อยู่ตามทะเบียน</h4>
+                <h5>*จบจากสถานศึกษา : <input id="Name" type="text" size="30"/>*ไม่ต้องระบุคำว่า โรงเรียน
+                    <h5>สมัครโดยใช้คุณวุฒิ:
+                <h5>เกรดเฉลี่ยสะสม (GPA):<input type="radio" name="เกรด" value="like"><input id="Name" type="text" size="8"/> ระบุคำระหว่าง1.00-4.00
+                    <h5>ปีที่สำเร็จการศึกษา : <input id="Name" type="text" size="5"/></h5>
+                        <button type="submit">ยืนยันข้อมูล</button>
+            <button type="button">เริ่มใหม่</button> (**กรุณาตรวจสอบข้อมูลของท่านให้เรียบร้อยก่อนทำการยืนยันข้อมูล)
+    </body>
